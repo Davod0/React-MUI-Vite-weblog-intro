@@ -1,4 +1,10 @@
-import { Post } from "./Interfaces";
+export interface Post {
+  id: number;
+  title: string;
+  body: string;
+  author: string;
+  createdDate: Date;
+}
 
 const mockedPosts: Post[] = [
   {
@@ -6,21 +12,21 @@ const mockedPosts: Post[] = [
     title: "The king",
     body: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
     author: "David Janson",
-    date: new Date("2020-01-01"),
+    createdDate: new Date("2020-01-01"),
   },
   {
     id: 2,
     title: "King Kung",
     body: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod",
     author: "Jack Jones",
-    date: new Date("2020-01-02"),
+    createdDate: new Date("2020-01-02"),
   },
   {
     id: 3,
     title: "Bad boys",
     body: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod",
     author: "Sara Larsson",
-    date: new Date("2020-01-03"),
+    createdDate: new Date("2020-01-03"),
   },
 ];
 
