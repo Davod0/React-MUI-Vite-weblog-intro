@@ -16,7 +16,7 @@ function App() {
     <div>
       <Header />
 
-      <PostForm />
+      <PostForm onSavePost={handleSavePost}/>
 
       <Stack direction="column" spacing={5} padding={2}>
         {posts.map((post) => (
