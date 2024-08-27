@@ -13,9 +13,7 @@ function PostItem({ post }: Props) {
     <Stack>
       <Typography variant="h5">{post.title}</Typography>
       <Typography variant="subtitle1">{post.author}</Typography>
-      <Typography variant="subtitle1">
-        {post.createdDate.toDateString()}
-      </Typography>
+      <Typography variant="subtitle1">{post.createdDate.toDateString()}</Typography>
       <Typography variant="body1">{post.body}</Typography>
     </Stack>
   );
