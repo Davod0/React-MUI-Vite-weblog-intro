@@ -1,4 +1,4 @@
-"This project is a simple weblog built with React, Vite.js, and MUI. The purpose of coding this project is to improve my skills in working with React and the MUI component library
+This project is a simple weblog built with React, Vite.js, and MUI. The purpose of coding this project is to improve my skills in working with React and the MUI component library
 
 ---
 
